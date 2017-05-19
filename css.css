@@ -24,7 +24,7 @@ p {
 	margin-right:10px;
 }
 .parallax1 {
-	background-image: url("Main.png");
+	background-image: url("https://i.imgur.com/SxIdeem.png");
 
     /* Set a specific height */
     height: 1500px;
@@ -37,7 +37,7 @@ p {
     transform: scale(0.9);
 }	
 .parallax2 {
-	background-image: url("Css.png");
+	background-image: url("https://i.imgur.com/nCsLNfp.png");
 
     /* Set a specific height */
     height: 1000px; 
@@ -50,7 +50,7 @@ p {
     transform: scale(0.9);
 }	
 .parallax3 {
-	background-image: url("Second.png");
+	background-image: url("https://i.imgur.com/epaWYSr.png");
 
     /* Set a specific height */
     height: 1500px; 
@@ -63,7 +63,7 @@ p {
     transform: scale(0.9);
 }	
 .parallax4 {
-	background-image: url("Script.png");
+	background-image: url("https://i.imgur.com/YJJIMgY.png");
 
     /* Set a specific height */
     height: 1500px; 
@@ -75,7 +75,7 @@ p {
     background-size: cover;
     transform: scale(0.9);}
 .parallax5 {
-	background-image: url("About.png");
+	background-image: url("https://i.imgur.com/zYOe6ix.png");
 
     /* Set a specific height */
     height: 1500px; 
