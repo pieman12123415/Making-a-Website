@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second page</title>
+	<link rel = "stylesheet"
+		type="text/css"
+		href="css.css"/>
+	<link rel="icon" href="https://lh3.googleusercontent.com/j5fD3m5qXRNtGYDuajhEtS_etFvU8FE5PogmqTY2hrshDG0_urf_UBeVAyJljoCxdf4=w300">
+</head>
+<body>
+<h2 id="top"></h2>
+<div class="stickyheader">
+  <div>
+  <button class="button" onclick="location.href='main.html'">Home</button>
+  <button class="buttonpress" onclick="location.href='second.html'">Second Page</button>
+  <button class="button" onclick="location.href='script.html'">Javascript</button>
+  <button class="button" onclick="location.href='about.html'">About</button>  
+  </div>
+  <button class="navbutton" onclick="location.href='second.html#bottom'">Jump to bottom</button>
+  <div style="display: inline-block;">
+  	<p style="text-align:left; font: bold 100% arial; margin:0px;">This header was one of the hardest things to make on this webpage.</p></div>
+</div>
+<h1>Making Webpages</h1>
+<p>Wow! A second page!<br>This is actually pretty simple to do. I made a seperate document for this page, and the previous page just links to it.</p>
+<div class="parallax3"></div>
+<p>The way this parallax effect works with the images is very janky. What I did was fix the images to the background, then I scaled them by 0.9. This makes them scroll very slightly but has the side effect of adding some bars to the sides. Unfortunately, I was not able to find a better way.</p>
+<div class="bottom"></div>
+<button class="navbutton" onclick="location.href='second.html#top'">Jump to top</button>
+<div>
+  <button class="button" onclick="location.href='main.html#bottom'">1</button>
+  <button class="buttonpress" onclick="location.href='second.html#bottom'">2</button>
+  <button class="button" onclick="location.href='script.html#bottom'">3</button>
+  <button class="button" onclick="location.href='about.html#bottom'">4</button> 
+</div>
+<h2 id="bottom"></h2>
+</body>
+</html>

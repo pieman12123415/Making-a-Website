@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script</title>
+	<link rel = "stylesheet"
+		type="text/css"
+		href="css.css"/>
+	<link rel="icon" href="https://lh3.googleusercontent.com/j5fD3m5qXRNtGYDuajhEtS_etFvU8FE5PogmqTY2hrshDG0_urf_UBeVAyJljoCxdf4=w300">
+</head>
+<body>
+<h2 id="top"></h2>
+<div class="stickyheader">
+  <div>
+  <button class="button" onclick="location.href='main.html'">Home</button>
+  <button class="button" onclick="location.href='second.html'">Second Page</button>
+  <button class="buttonpress" onclick="location.href='script.html'">Javascript</button>
+  <button class="button" onclick="location.href='about.html'">About</button> 
+  </div>
+  <button class="navbutton" onclick="location.href='script.html#bottom'">Jump to bottom</button>
+  <div style="display: inline-block;">
+  	<p style="text-align:left; font: bold 100% arial; margin:0px;">This header was one of the hardest things to make on this webpage.</p></div>
+</div>
+<h1>Making Webpages</h1>
+<p>JavaScript can be used to make webpages interactive.<br> On a scale of 1 to 10, how much better does it make a webpage?</p>
+	<div style="text-align:center">
+	<button class="button" onclick="getRandom()">Click here to find out!</button> 
+	</div>
+	<p id="0-10" style="text-decoration:underline;">_</p>
+	<script>
+	function getRandom() { 
+		var ayy=Math.floor(Math.random()*4+7)
+  	  document.getElementById("0-10").innerHTML = ayy;
+	}
+	</script>
+	<noscript>Javascript is not enabled here, so I guess it doesn't make a page much better.</noscript>
+<div class="parallax4"></div>
+<p>In all fairness, that random number generator is rigged. I made it only generate numbers from 7-10 to make JavaScript appear really good.</p>
+<div class="bottom"></div>
+<button class="navbutton" onclick="location.href='second.html#top'">Jump to top</button>
+<div>
+  <button class="button" onclick="location.href='main.html#bottom'">1</button>
+  <button class="button" onclick="location.href='second.html#bottom'">2</button>
+  <button class="buttonpress" onclick="location.href='script.html#bottom'">3</button>
+  <button class="button" onclick="location.href='about.html#bottom'">4</button> 
+</div>
+<h2 id="bottom"></h2>
+</body>
+</html>
